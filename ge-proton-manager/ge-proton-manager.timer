@@ -1,0 +1,11 @@
+[Unit]
+Description="Download latest GE Proton every day"
+
+[Timer]
+OnActiveSec=0s
+OnUnitActiveSec=24h
+Persistent=true
+Unit=ge-proton-manager.service
+
+[Install]
+WantedBy=timers.target

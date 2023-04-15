@@ -1,0 +1,5 @@
+[Unit]
+Description="Download latest GE Proton"
+
+[Service]
+ExecStart=/home/deck/Scripts/steamdeck-tweaks/ge-proton-manager/ge-proton-manager.py latest
